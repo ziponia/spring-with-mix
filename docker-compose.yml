@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  crud-db:
+    container_name: crud-db
+    platform: linux/amd64
+    restart: always
+    image: mariadb:10.5.13
+    environment:
+      MYSQL_ROOT_PASSWORD: test
+      MYSQL_DATABASE: test
+      MYSQL_USER: test
+      MYSQL_PASSWORD: test
+    ports:
+      - "4419:3306"

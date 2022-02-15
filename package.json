@@ -1,0 +1,29 @@
+{
+  "name": "java-crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "axios": "^0.26.0",
+    "babel-loader": "^8.2.3",
+    "laravel-mix": "^6.0.42",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
